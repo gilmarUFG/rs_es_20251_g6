@@ -44,9 +44,11 @@ SIGAA
 
 |Id|Descrição|
 |---|---|
-|||
-|||
-|||
+|RN1|O sistema deve permitir que apenas professores tenham acesso ao controle de frequência|
+|RN2|O sistema deve permitir ao coordenador do respectivo instituto, realizar o cadastramento de matérias|
+|RN3|O aluno deve poder submeter a atividade na plataforma somente dentro do período estipulado pelo professor|
+|RN4|Protocolo de cadastramento de aluno em matérias deve seguir índice de prioridade de cada aluno|
+|RN5|O cancelamento de matrícula numa turma só pode ser feito dentro do prazo estipulado|
 
 ### Matriz de Rastreabilidade de Requisitos
 
