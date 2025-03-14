@@ -32,7 +32,7 @@ SIGAA
 |---|---|
 
 |RNF1|Incluir verificação de usuário bot, aumentando a segurança do login, por meio de captcha|
-|RNF2|O sistema deve ser responsivo| USABILIDADE
+|RNF2|O sistema deve ser responsivo|
 |RNF3|O login deve ser persistido no navegador do usuário durante determinado tempo|
 |RNF4|O tamanho máximo dos arquivos de upload deve ser de 10mb|
 |RNF5|Deve haver persistência automática dos formulários preenchidos pelo usuário enquanto não houver um "salvamento" definitivo|
