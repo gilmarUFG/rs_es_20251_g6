@@ -30,7 +30,6 @@ SIGAA
 
 |Id|Descrição|
 |---|---|
-
 |RNF1|Incluir verificação de usuário bot, aumentando a segurança do login, por meio de captcha|
 |RNF2|O sistema deve ser responsivo|
 |RNF3|O login deve ser persistido no navegador do usuário durante determinado tempo|
