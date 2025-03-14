@@ -24,21 +24,18 @@ SIGAA
 |RF3|O sistema deve permitir o estudante solicitar em matrícula de turmas ofertadas para determinadas disciplinas|
 |RF4|O sistema deve permitir o estudante consultar suas turmas em que há ou houve vínculo, permitindo a visualização de detalhes|
 |RF5|O sistema deve ter suporte à multiplas linguagens|
-
-|||
+|RF6|O sistema deve permitir upload de arquivos|
 
 ### Requisitos Não Funcionais
 
 |Id|Descrição|
 |---|---|
 
-|RNF1|Incluir verificação de usuário bot, aumentando a segurança do login|
+|RNF1|Incluir verificação de usuário bot, aumentando a segurança do login, por meio de captcha|
 |RNF2|O sistema deve ser responsivo| USABILIDADE
 |RNF3|O login deve ser persistido no navegador do usuário durante determinado tempo|
-|RNF4||
-|||
-|||
-|||
+|RNF4|O tamanho máximo dos arquivos de upload deve ser de 10mb|
+|RNF5|Deve haver persistência automática dos formulários preenchidos pelo usuário enquanto não houver um "salvamento" definitivo|
 
 ### Regras de Negócio
 
