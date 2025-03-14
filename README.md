@@ -2,8 +2,10 @@
 Repositório criado para a manutenção de artefatos de trabalho gerados pelo Grupo 6, durante o andamento da Disciplina de Requisitos de Software, do Curso Bacharelado em Engenharia de Software, do Instituto de Informática, da Universidade Federal de Goiás.
 
 ## Nome do Projeto
+SIGAA
 
 ### Descrição
+
 
 ### Problema
 
@@ -17,14 +19,23 @@ Repositório criado para a manutenção de artefatos de trabalho gerados pelo Gr
 
 |Id|Descrição|
 |---|---|
-|||
-|||
+|RF1|O sistema deve permitir ao usuário o login usando seu login único, ou CPF, e senha|
+|RF2|O sistema deve permitir ao estudante o envio de atividades de extensão, incluindo seus detalhes como tipo de ação, descricação e data de realização|
+|RF3|O sistema deve permitir o estudante solicitar em matrícula de turmas ofertadas para determinadas disciplinas|
+|RF4|O sistema deve permitir o estudante consultar suas turmas em que há ou houve vínculo, permitindo a visualização de detalhes|
+|RF5|O sistema deve ter suporte à multiplas linguagens|
+
 |||
 
 ### Requisitos Não Funcionais
 
 |Id|Descrição|
 |---|---|
+
+|RNF1|Incluir verificação de usuário bot, aumentando a segurança do login|
+|RNF2|O sistema deve ser responsivo| USABILIDADE
+|RNF3|O login deve ser persistido no navegador do usuário durante determinado tempo|
+|RNF4||
 |||
 |||
 |||
