@@ -5,10 +5,11 @@
 3. &nbsp;&nbsp;Caso o login seja bem sucedido, o login será persistido no navegador do usuário durante determinado período (RNF3).
 
 # Fontes de requisitos
-brainstorm e engenharia reversa
+Brainstorm, engenharia reversa e entrevisa com usuários.
 
 # Fluxo de execução
 ![Diagrama sem nome drawio (1)](https://github.com/user-attachments/assets/acb82709-3e8d-4f34-a7e7-59fbceb9a0e2)
 
 # Perfis de usuário com permisão de execução
+Estudantes, docentes, coordenadores e técnicos administrativos da instituição devem ter acesso a tela de login.
 
