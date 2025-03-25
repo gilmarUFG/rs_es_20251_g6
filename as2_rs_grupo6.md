@@ -36,11 +36,49 @@ Que também pode ser representado por meio de um protótipo de interface gráfic
 Ou, em uma representação de mais baixo nível, com mais detalhes de implementação, pode ser modelado como no diagrama de sequência abaixo:
 <br/><br/>
 ![DiagramaDeLogin](https://github.com/user-attachments/assets/aada078b-08d3-4063-89ed-8979f69e23c7)
-
+<hr/>
 
 
 ### 3️⃣ Especificação de Requisitos
 
 ### 4️⃣ Validação dos Requisitos
+<hr/>
 
 ### 5️⃣ Gerenciamento dos Requisitos
+O **Gerenciamento de Requisitos** é um processo essencial no desenvolvimento de software, garantindo que as necessidades dos stakeholders sejam bem definidas, documentadas, rastreadas e controladas durante todo o ciclo de vida do projeto.
+
+## Componentes Principais
+- **Elicitação**: Identificação das necessidades dos stakeholders. Exemplo: No SIGAA, alunos e professores precisam acessar informações acadêmicas de forma intuitiva.
+
+![IMG4](https://github.com/user-attachments/assets/5766353f-fb0d-4295-a6a3-f57dc27470d8)
+
+  
+- **Documentação**: Registro formal dos requisitos.
+- **Validação**: Revisão e testes dos requisitos.
+- **Gerenciamento de Mudanças**: Controle de alterações. Exemplo: Atualizações no SIGAA para novas diretrizes acadêmicas.
+- **Rastreamento**: Monitoramento do impacto dos requisitos.
+
+## Importância do Gerenciamento de Requisitos
+
+- **Minimiza riscos** ao evitar ambiguidades e falhas de comunicação.
+- **Garante alinhamento** entre as partes interessadas e a equipe de desenvolvimento.
+- **Facilita a manutenção e evolução do software** ao longo do tempo.
+- **Melhora a qualidade do produto final**, reduzindo retrabalho e custos adicionais.
+
+## Atores Envolvidos
+- **Clientes e Usuários**: Definem necessidades.
+- **Analistas**: Documentam e gerenciam requisitos.
+- **Desenvolvedores**: Implementam os requisitos.
+- **Gerentes de Projeto**: Monitoram o progresso.
+- **Testadores**: Validam os requisitos. 
+
+![IMG5](https://github.com/user-attachments/assets/03014530-56b6-4c1b-9c8d-16caba2cf0ec)
+
+
+## Ferramentas e Boas Práticas
+- Uso de **Jira, IBM DOORS, Azure DevOps**.
+- Definição clara dos requisitos.
+- Revisões periódicas. Exemplo: O SIGAA passa por revisões constantes para atender novas demandas institucionais.
+
+O gerenciamento eficaz de requisitos garante alinhamento entre expectativas e entrega da solução.
+<hr/>
