@@ -40,6 +40,15 @@ Ou, em uma representação de mais baixo nível, com mais detalhes de implementa
 
 
 ### 3️⃣ Especificação de Requisitos
+ - O objetivo principal dessa etapa é criar um documento com o nível de detalhamento correspondente dos requisitos. Este documento conterá todos os requisitos que devem ser impostos ao projeto e verificação do produto. Ele também conterá outras informações relacionadas necessárias para o projeto, verificação e manutenção do produto.
+
+- A especificação de requisitos também é conhecida como documentação, é um processo de anotar todos os requisitos do sistema e do usuário na forma de um documento. Esses requisitos devem ser claros, completos, abrangentes e consistentes. 
+
+- No próprio documento, podemos encontrar diagramas UML, casos de uso, conforme abaixo:
+  
+## Diagrama de casos de uso
+![Diagrama sem nome drawio (3)](https://github.com/user-attachments/assets/0ae5db1a-2373-4a48-96b7-339d9d71763c)
+
 
 ### 4️⃣ Validação dos Requisitos
 <hr/>
