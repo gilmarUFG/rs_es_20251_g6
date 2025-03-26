@@ -51,12 +51,12 @@ Ou, em uma representação de mais baixo nível, com mais detalhes de implementa
 
 
 
-### 4️⃣ Validação dos Requisitos ✅  
+### 4️⃣ Validação dos Requisitos 
 
 A **Validação de Requisitos** é uma etapa crucial que assegura que os requisitos coletados e especificados atendem às necessidades dos stakeholders e são viáveis para implementação. O objetivo principal é identificar erros, inconsistências, ambiguidades ou lacunas antes que o desenvolvimento do sistema seja iniciado, reduzindo retrabalho e custos.  
 
 
-###  Como validar requisitos?  
+####  Como validar requisitos?  
 
 Para garantir que os requisitos sejam claros, completos e testáveis, utilizamos diferentes abordagens:  
 
