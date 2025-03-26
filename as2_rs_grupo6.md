@@ -50,19 +50,37 @@ Ou, em uma representação de mais baixo nível, com mais detalhes de implementa
 ![Diagrama sem nome drawio (3)](https://github.com/user-attachments/assets/0ae5db1a-2373-4a48-96b7-339d9d71763c)
 
 
-### 4️⃣ Validação dos Requisitos  
-A **Validação de Requisitos** é a etapa que assegura que os requisitos coletados e especificados atendem às necessidades dos stakeholders e são viáveis para implementação. O objetivo principal é identificar erros, inconsistências, ambiguidades ou lacunas antes que o desenvolvimento do sistema inicie, reduzindo retrabalho e custos.  
 
-#### Técnicas de Validação  
-- **Revisões**: Análises detalhadas dos requisitos por especialistas e stakeholders.  
-- **Prototipação**: Criação de modelos ou versões preliminares do sistema para validar a compreensão dos requisitos.  
-- **Casos de Teste**: Geração de cenários que verificam se os requisitos são testáveis e bem definidos.  
-- **Rastreamento de Requisitos**: Uso de matrizes para garantir que cada requisito esteja devidamente ligado a um objetivo do sistema.  
+### 4️⃣ Validação dos Requisitos ✅  
 
-#### Benefícios da Validação  
-- Garante que os requisitos refletem corretamente as necessidades do usuário.  
-- Reduz falhas e retrabalho ao longo do desenvolvimento.  
-- Assegura que o projeto atenda aos padrões de qualidade.  
+A **Validação de Requisitos** é uma etapa crucial que assegura que os requisitos coletados e especificados atendem às necessidades dos stakeholders e são viáveis para implementação. O objetivo principal é identificar erros, inconsistências, ambiguidades ou lacunas antes que o desenvolvimento do sistema seja iniciado, reduzindo retrabalho e custos.  
+
+
+###  Como validar requisitos?  
+
+Para garantir que os requisitos sejam claros, completos e testáveis, utilizamos diferentes abordagens:  
+
+ **Revisão por especialistas** 
+- Stakeholders e analistas revisam os requisitos para identificar falhas ou ambiguidades.  
+- **Exemplo:** O gerente de um sistema bancário pode revisar um requisito e perceber que a segurança de login precisa ser mais robusta.  
+
+ **Prototipação** 
+- Criamos um modelo visual do sistema para validar requisitos antes do desenvolvimento.  
+- **Exemplo:** Um wireframe de um aplicativo bancário pode ser validado com usuários antes da implementação.  
+- *Imagem ilustrativa:*  
+![Protótipo de Interface de Aplicativo Bancário](https://tse3.mm.bing.net/th?id=OIP.-HYzMSPF6eK1ks1blON38AHaE7&pid=Api)  
+
+ **Casos de Teste** 
+- Definimos cenários para garantir que os requisitos são testáveis e funcionais.  
+- **Exemplo:** "O sistema deve permitir login apenas para usuários cadastrados." Criamos um teste para verificar se um usuário inválido não consegue acessar.  
+
+ **Rastreamento de Requisitos** 
+- Criamos uma matriz de rastreabilidade para garantir que cada requisito esteja vinculado a um objetivo do projeto.  
+- **Exemplo:** Um requisito de "consulta de saldo bancário" é ligado à funcionalidade de "informações da conta".  
+- *Imagem ilustrativa:*  
+![Matriz de Rastreabilidade de Requisitos](https://tse2.mm.bing.net/th?id=OIP.o0efw6muMzkdTzmoU5xGOQHaEK&pid=Api)  
+
+
 
 
 ### 5️⃣ Gerenciamento dos Requisitos
