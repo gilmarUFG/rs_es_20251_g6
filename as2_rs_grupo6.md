@@ -50,8 +50,20 @@ Ou, em uma representação de mais baixo nível, com mais detalhes de implementa
 ![Diagrama sem nome drawio (3)](https://github.com/user-attachments/assets/0ae5db1a-2373-4a48-96b7-339d9d71763c)
 
 
-### 4️⃣ Validação dos Requisitos
-<hr/>
+### 4️⃣ Validação dos Requisitos  
+A **Validação de Requisitos** é a etapa que assegura que os requisitos coletados e especificados atendem às necessidades dos stakeholders e são viáveis para implementação. O objetivo principal é identificar erros, inconsistências, ambiguidades ou lacunas antes que o desenvolvimento do sistema inicie, reduzindo retrabalho e custos.  
+
+#### Técnicas de Validação  
+- **Revisões**: Análises detalhadas dos requisitos por especialistas e stakeholders.  
+- **Prototipação**: Criação de modelos ou versões preliminares do sistema para validar a compreensão dos requisitos.  
+- **Casos de Teste**: Geração de cenários que verificam se os requisitos são testáveis e bem definidos.  
+- **Rastreamento de Requisitos**: Uso de matrizes para garantir que cada requisito esteja devidamente ligado a um objetivo do sistema.  
+
+#### Benefícios da Validação  
+- Garante que os requisitos refletem corretamente as necessidades do usuário.  
+- Reduz falhas e retrabalho ao longo do desenvolvimento.  
+- Assegura que o projeto atenda aos padrões de qualidade.  
+
 
 ### 5️⃣ Gerenciamento dos Requisitos
 O **Gerenciamento de Requisitos** é um processo essencial no desenvolvimento de software, garantindo que as necessidades dos stakeholders sejam bem definidas, documentadas, rastreadas e controladas durante todo o ciclo de vida do projeto.
