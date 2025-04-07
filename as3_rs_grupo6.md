@@ -38,9 +38,13 @@ Trata-se de uma forma mais dinâmica de elicitação. Procura-se ter uma abordag
 Por meio do brainstorm, é possível obter um grande e variado número de idéias em pouco tempo, a partir de um pequeno grupo de stakeholders devidamente selecionados. Esses grupos devem ser sabiamente montados de forma que todos os integrantes possam contribuir de diferentes formas para a construção de idéias e sem que haja "antagonistas" impedindo a evolução da dinâmica. As idéias retiradas desse evento não possuem maturidade de requisito mas podem ser consideradas durante a elicitação, apesar de expressarem idéias subjetivas quando ao tópico abordado.
 ## Observação
 A observação, assim como descrito por seu nome, consiste na observação do fluxo de trabalho dos stakeholders, de forma que um analista consiga analisar todos os passos dados durante sua execução. A observação é bem usada para requisitos complexos demais para serem corretamente explicados pelos stakeholders ou tarefas de altos risco na execução.
-- Questionário
-- Análise da Interface Entre Sistemas
-- Análise da Interface de Usuário
-- Análise de Documentação
+## Questionário
+O uso de questionários são bem difundidos na elicitação de requisito por serem "baratos" e permitirem o contato com um grande número de stakeholders facilmente. Podem ser usados, principalmente, para identificar os pontos de maiores necessidades em relação ao sistema vigente ou receber feedback sobre o produto em produção. O questionário pode ser usado como insumo para discussão em Workshops e entrevistas.
+## Análise da Interface Entre Sistemas
+A análise de interface entre sistemas cabe nos projetos em que há a comunicação entre diferentes sistemas por meio de uma API. Essa comunicação entre sistemas deve ser representada por meio de diagramas contexto e mapeamentos de ecossistema.
+## Análise da Interface de Usuário/Sistema Análogo
+A análise de sistema análogo entra no contexto em que há um sistema concorrente com propósito semelhante ao que o projeto se propõe a construir. Muitos requisitos podem ser extraídos por meio da engenharia reversa de um sistema parecido, como: funcionalidades, design da interface gráfica, usabilidade, etc. É importante manter o escopo em mente, nesse caso, pois a presença de determinados elementos no sistema análogo não significam que também devem haver no projeto em construção
+## Análise de Documentação
+A extração de requisitos, por meio de documentação existente da organização, pode ser benéfica na revelação de regras de negócio, processos internos, sistemas internos, etc. Quanto à documentação de sistemas internos, é válido levar em conta as funcionalides obsoletas a serem abandonadas e a implementação das que devem ser mantidas. Também, é possível que a documentação esteja desatualizada e represente um risco para a elicitação dos requisitos.
 
 
