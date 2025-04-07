@@ -30,7 +30,8 @@
 ![2025-04-05_20h19_18](https://github.com/user-attachments/assets/7201cc8e-c193-4098-aff6-85099dd270e5)
 
 ## Técnicas de Elicitação
-- Entrevista
+### Entrevista
+Trata-se da forma mais óbvia e direta de elicitação de requisitos, em que os stakeholders são entrevistados e questionados quanto às necessidades a serem atendidas. É uma forma rápida e eficiente de repassar requisitos para novos envolvidos ao mesmo tempo em que envolvem o usuário no processo de desenvolvimento do sistema. Podem ser conduzidas de forma individual, em reuniões de 1 para 1, ou em grupos, com diversos indivíduos envolvidos. É de bom tom o questionador buscar informações sobre o projeto e preparar questões de antemão para a entrevista; e sugerir idéias pertinentes que estejam no escopo do sistema, de forma que as idéias do entrevistado sejam melhor expressas como requisito.
 - Workshop
 - Brainstorm
 - Observação
