@@ -29,4 +29,14 @@
 ---
 ![2025-04-05_20h19_18](https://github.com/user-attachments/assets/7201cc8e-c193-4098-aff6-85099dd270e5)
 
+## Técnicas de Elicitação
+- Entrevista
+- Workshop
+- Brainstorm
+- Observação
+- Questionário
+- Análise da Interface Entre Sistemas
+- Análise da Interface de Usuário
+- Análise de Documentação
+
 
