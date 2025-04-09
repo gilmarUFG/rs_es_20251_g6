@@ -34,6 +34,7 @@
 ## Técnicas de Elicitação
 ### Entrevista
 Trata-se da forma mais óbvia e direta de elicitação de requisitos, em que os stakeholders são entrevistados e questionados quanto às necessidades a serem atendidas. É uma forma rápida e eficiente de repassar requisitos para novos envolvidos ao mesmo tempo em que envolvem o usuário no processo de desenvolvimento do sistema. Podem ser conduzidas de forma individual, em reuniões de 1 para 1, ou em grupos, com diversos indivíduos envolvidos. É de bom tom o questionador buscar informações sobre o projeto e preparar questões de antemão para a entrevista; e sugerir idéias pertinentes que estejam no escopo do sistema, de forma que as idéias do entrevistado sejam melhor expressas como requisito.
+
  ![Group 19](https://github.com/user-attachments/assets/a6847222-4081-427c-be39-33733152ae1c)
 
 ---
@@ -46,24 +47,28 @@ Trata-se de uma forma mais dinâmica de elicitação. Procura-se ter uma abordag
 ---
 ### Brainstorm
 Por meio do brainstorm, é possível obter um grande e variado número de idéias em pouco tempo, a partir de um pequeno grupo de stakeholders devidamente selecionados. Esses grupos devem ser sabiamente montados de forma que todos os integrantes possam contribuir de diferentes formas para a construção de idéias e sem que haja "antagonistas" impedindo a evolução da dinâmica. As idéias retiradas desse evento não possuem maturidade de requisito mas podem ser consideradas durante a elicitação, apesar de expressarem idéias subjetivas quando ao tópico abordado.
+
 ![431389106-ab2d997e-df8e-4891-ae48-1b082241e511 1](https://github.com/user-attachments/assets/8aca59ff-6330-47c2-85d2-291e2b67ad19)
 
 
 ---
 ### Observação
 A observação, assim como descrito por seu nome, consiste na observação do fluxo de trabalho dos stakeholders, de forma que um analista consiga analisar todos os passos dados durante sua execução. A observação é bem usada para requisitos complexos demais para serem corretamente explicados pelos stakeholders ou tarefas de altos risco na execução.
+
 ![Group 18](https://github.com/user-attachments/assets/e7aa6bb2-86f7-4356-aacd-d6dbc502168b)
 
  
 ---
 ### Questionário
 O uso de questionários são bem difundidos na elicitação de requisito por serem "baratos" e permitirem o contato com um grande número de stakeholders facilmente. Podem ser usados, principalmente, para identificar os pontos de maiores necessidades em relação ao sistema vigente ou receber feedback sobre o produto em produção. O questionário pode ser usado como insumo para discussão em Workshops e entrevistas.
+
 ![431390500-f62f8562-26c6-4461-b371-524feb6e75b1 1](https://github.com/user-attachments/assets/51abe7c0-1f96-4261-b733-d576f84fb043)
 
  
 ---
 ### Análise da Interface Entre Sistemas
 A análise de interface entre sistemas cabe nos projetos em que há a comunicação entre diferentes sistemas por meio de uma API. Essa comunicação entre sistemas deve ser representada por meio de diagramas contexto e mapeamentos de ecossistema.
+
 ![Design-sem-nome-1 1](https://github.com/user-attachments/assets/c2286fab-910d-4141-9bca-e9d6aba39969)
 
  
@@ -76,6 +81,7 @@ A análise de sistema análogo entra no contexto em que há um sistema concorren
 ---
 ### Análise de Documentação
 A extração de requisitos, por meio de documentação existente da organização, pode ser benéfica na revelação de regras de negócio, processos internos, sistemas internos, etc. Quanto à documentação de sistemas internos, é válido levar em conta as funcionalides obsoletas a serem abandonadas e a implementação das que devem ser mantidas. Também, é possível que a documentação esteja desatualizada e represente um risco para a elicitação dos requisitos.
+
 ![Group 22](https://github.com/user-attachments/assets/f4b29c40-443e-4272-884a-23a965e50c59)
 
 
