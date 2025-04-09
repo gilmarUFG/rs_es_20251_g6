@@ -1,13 +1,25 @@
 ## 🎯 Mural - Fontes de Requisitos e Técnicas para Elicitação de Requisitos
 ---
 ## Fontes dos requisitos
-- Uma das principais fontes de requisitos são os **Stakeholders**
+- Uma das principais fontes de requisitos são os **Stakeholders**.
 - Os **Stakeholders** são todos que:
   1. Estão ativamente envolvidos no projeto
   2. São afetados pelas saídas do projeto
-  3. Podem influenciar as saídas do projeto.
+- Stakeholders influenciam os resultados e desempenho de um projeto, seja de maneira direta ou indireta
+- Manter o engajamento melhora os resultados do projeto e também a satisfação dos stakeholders (auxiliam na coleta de informações que podem ser importates para o projeto)
+- Stakeholders podem mudar de acordo com o tempo ou o nível de participação;
 
-- **Exemplos de Stakeholders:**
+### **Principais Atividades de um Stakeholder**
+  - Escopo: definir, alterar ou remover um elemento do escopo;
+  - Cronograma: diminuir ou aumentar o escopo (influenciando no tempo de desenvolvimento), ou pausar atividades (do projeto inteiro ou especificas);
+  - Custos: eliminar ou reduzir despesas planejadas, incluir mais coisas no projeto;
+  - Riscos: identificar e definir riscos e até onde é aceitavel correr algum risco;
+  - Qualidade: idenfificar e definir os requisitos de qualidade do projeto
+    
+![MM Requisitos - Página 1](https://github.com/user-attachments/assets/2f988ed2-05cc-4a2f-af47-780230237d08)
+
+
+### **Exemplos de Stakeholders:**
   - Clientes;
   - Usuários;
   - Especialistas no domínio;
@@ -28,8 +40,6 @@
   4. Observação e Aprendizagem
  ---
 ![Group 23](https://github.com/user-attachments/assets/fddaba77-d015-4124-a934-2e56b26eede7)
-
- 
  
 ## Técnicas de Elicitação
 ### Entrevista
