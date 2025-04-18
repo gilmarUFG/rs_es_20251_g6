@@ -1,0 +1,46 @@
+Prioridade;Duplicado;Cenário;Matrícula;Nome;Sugestão
+Média;FALSE;4;202201680;ALINE AYUMI SOMA HAMANO;Todos o veículos cadastrados devem ser rastráveis pelo sistema
+Média;FALSE;4;202201681;ALINE LIMA MARTINS COELHO;Após a viagem, o usuário deve poder avaliar o serviço e relatar problemas.
+Alta;FALSE;4;202206141;ALINE NUNES DOS SANTOS;O veículo deve ser capaz de perceber riscos e reagir antes que ocorram acidentes.
+Alta;FALSE;4;202306332;ÁLVARO VELOSO LISBOA;Sistema de geoposicionamento deve ser preciso e a prova de falhas, para evitar erros de localização ao solicitar o veículo e definir destino.
+Média;FALSE;4;202201689;FELIPE MOREIRA SILVA;O sistema deve elaborar o uso compartilhado dos veículos autônomos, pensando rotas inteligentes à mobilidade coletiva.
+Média;FALSE;4;202201691;GABRIEL BORGES GARCIA;A empresa deve colocar pontos de recargas em pontos estrategicos da cidade.
+Média;FALSE;4;202206970;GABRIEL FERREIRA SILVA;O aplicativo deve ter pontos especificos onde os veiculos estaram disponiveis para serem usados
+Baixa;FALSE;4;202108000;GABRIEL MILHOMEM CUNHA;"O usuário deve poder acessar um histórico detalhado de viagens passadas, incluindo o custo, o tempo de viagem; e as rotas tomadas."
+Baixa;FALSE;4;202107016;GUSTAVO NEVES PIEDADE LOUZADA;O aplicativo deve oferecer descontos a usuários que não utilizam a plataforma há mais de dois meses
+Baixa;FALSE;4;201802766;HALLEFFY HENRYK REIS SANTOS;O sistema deve permitir o usuário se cadastrar como motorista de veículo autônomo. Além disso, deve validar se ele está hábil a exercer tal função.
+Média;FALSE;4;201910884;JAIR SOUZA MEIRA RODRIGUES;O sistema deve manter a segurança do passageiro exigindo métodos e medidas de segurança que permitam ou não o início de uma nova viagem.
+Alta;FALSE;4;202201694;JHEISSYANE KELLY DA SILVA SOUZA;O sistema deve ser capaz de identificar quando um veículo precisa ser recarregado ou abastecido e não disponibilizá-lo para uso até que esteja devidamente pronto.
+Alta;FALSE;4;202201695;JOÃO GABRIEL CAVALCANTE FRANÇA;Utilização de um modelo de detecção de objetos com acurácia superior a 90%, com suporte a detecção de objetos orientados.
+Alta;FALSE;4;202201697;JOÃO VITOR ALVES DOS REIS;Os veículos autônomos devem seguir as normas de trânsito estabelecidas no local de atuação.
+Média;FALSE;4;202004761;JOSÉ CARLOS LEE;"O aplicativo deve permitir ao usuário cadastrar e selecionar endereços como ""favoritos"" (ex: Casa, Trabalho) para facilitar a solicitação de viagens futuras."
+Média;FALSE;4;202201700;LEONARDO MOREIRA DE ARAÚJO;O sistema deve permitir que veículos já em utilização só aceitem novas solicitações caso estejam a menos de 2km de conclusão do percurso atual.
+Alta;FALSE;4;202201706;MATEUS HENRIQUE GANDI DE OLIVEIRA;O sistema deve ser capaz de falar, dando instruções ao usuário e respondendo a dúvidas do usuário em tempo real, reduzindo a tensão no seu uso e aumentando a confiança a partir da validação de que o sistema sabe o que está fazendo.
+Alta;FALSE;4;202204842;MAURO SÉRGIO DO NASCIMENTO JUNIOR;O sistema deve ser tolerante a problemas de conectividade.
+Média;FALSE;4;202201708;MIKAEL BORGES DE OLIVEIRA E SILVA JUNIOR;O sistema deve ter uma api que disponibiliza os eventos do veiculo para analise de dados acerca da direção dos motoristas
+Média;FALSE;4;202300197;PHABLO TAVARES PAIXÃO;os veículos devem se comunicar entre si como uma rede, permitindo uma maior eficiencia do transporte urbano, diminuindo erros humanos no transito
+Alta;FALSE;4;202201712;SAMUEL JOSE EVANGELISTA ALVES;O sistema deve ter uma seção de FAQs e uma central de ajuda dentro do app para problemas comuns, como agendamento de corridas, pagamento e questões de segurança
+Média;FALSE;4;202201713;SOPHIA FERNANDES MAGALHÃES ALMEIDA;O aplicativo deve oferecer opções de acessibilidade, como seleção de veículos adaptados para cadeirantes, com suporte a comandos por voz, leitura de tela e/ou interface com alto contraste, garantindo inclusão para usuários com deficiência física, visual ou motora.
+Alta;FALSE;4;202201714;STEPHANY DE OLIVEIRA SOUSA MILHOMEM;O sistema deve permitir que o passageiro valide se o veículo que chegou é o correto por meio de um código de confirmação exibido no aplicativo e no painel do veículo.
+Média;FALSE;4;202201716;THIAGO VICENTE DE AQUINO;O aplicativo deve disponibilizar para o usuário o controle de temperatura, som e janelas do veículo, para que assim ele consiga ter o ambiente de acordo com suas necessidades.
+Média;FALSE;4;202204532;VICTOR MARTINS VIEIRA;O sistema deve implementar uma forma de coletar, agregar e processar dados de telemetria dos veículos a fim de determinar seu estado de conservação e realizar manutenções preventivas, visto que uma parada do veículo poderia prejudicar o trânsito de outros veículos.
+Alta;FALSE;4;202201717;VITOR MARTINS CASTANHEIRA;o aplicativo deve exibir todas as informações de um veículo para o usuário que deseja solicitá-lo.
+Baixa;FALSE;4;202201718;VITOR PAULO ETERNO GODOI;O usuário deve ser capaz de registrar paradas no meio do percurso pelo aplicativo (seja para esperar por alguém ou algum outro compromisso rápido) com um limite de tempo de espera predefinido, afetando o valor da corrida.
+Baixa;TRUE;4;202201679;ABRAAO SANTIAGO MOREIRA;O sistema deve permitir um módulo reservas: Possibilidade de agendar viagens antecipadamente.
+Alta;TRUE;4;202201683;ARTHUR NUCADA FELIX DE SOUZA;O aplicativo permitir que o usuario vizualize altere sua rota
+Baixa;TRUE;4;202305528;CLAUDIO CRISTIANO LOUZA FILHO;O sistema pode permitir que familiares acompanhem em tempo real a rota e o status da viagem de usuários selecionados, aumentando a sensação de segurança, especialmente para crianças ou idosos.
+Alta;TRUE;4;202004754;GIOVANNA LYSSA RODRIGUES BORGES TELES;O aplicativo deve calcular a rota mais rápida e segura, levando em consideração o tráfego e condições climáticas em tempo real
+Alta;TRUE;4;202201692;GUILHERME GONÇALVES DUTRA DE MENDONÇA;O usuário deve ser capaz de solicitar um veículo autônomo pelo aplicativo, informando sua localização atual e destino desejado, e receber uma estimativa de tempo para a chegada do veículo.
+Alta;TRUE;4;202201693;HUGO MORENO I VEIGA JARDIM;O aplicativo deve oferecer reservas em tempo real e rotas otimizadas com base em análise de tráfego. Deve incluir monitoramento de segurança do veículo e opções de compartilhamento de viagens.
+Alta;TRUE;4;201910887;JOÃO VITOR DA COSTA ALMEIDA;O aplicativo deve permitir que os usuários solicitem veículos autônomos para transporte urbano, com integração a mapas de tráfego em tempo real.
+Alta;TRUE;4;202201699;JOSÉ ALVES DE OLIVEIRA NETO;O aplicativo deve incluir um sistema de comunicação ou chamada de emergência para que os usuários possam relatar problemas durante a viagem.
+Alta;TRUE;4;202300194;JOSEPPE PEDRO CUNHA FELLINI;O aplicativo deve permitir que os usuários solicitem e acompanhem em tempo real veículos autônomos para transporte urbano.
+Alta;TRUE;4;202201703;LUCAS GABRIEL NUNES ALVES;"O aplicativo deve ser capaz de calcular rotas otimizadas para veículos autônomos; levando em consideração o tráfego em tempo real, condições meteorológicas e restrições de tráfego."
+Baixa;TRUE;4;202004766;LUIS FELIPE FERREIRA SILVA;O sistema deve permitir que o usuário agende a solicitação de um veículo para um horário e rota específicos.
+Baixa;TRUE;4;202302618;MARCELLO RONALD JOSÉ DA SILVA;O aplicativo deve permitir o compartilhamento de rota para o usuário.
+Baixa;TRUE;4;202108922;MARIA EDUARDA DE CAMPOS RAMOS;O sistema deve permitir que o usuário compartilhe a rota com outras pessoas para fins de segurança e acompanhamento em tempo real.
+Alta;TRUE;4;202201707;MATHEUS FRANCO CASCÃO COSTA;Visualização da localização do veículo em tempo real antes e durante a corrida.
+Alta;TRUE;4;202200031;RAQUEL DIAS DA SILVA;O aplicativo deve permitir que usuários solicitem veículos autônomos, exibindo o tempo estimado de chegada e a rota segura com base em dados de tráfego em tempo real.
+Alta;TRUE;4;202201715;TANIELE ROCHA MADUREIRA;O sistema deve exibir a um usuário a localização dos veículos disponíveis
+Média;TRUE;4;202009586;THAYLINY ALVES DE MOURA;O sistema deve ser  capaz  alterar as rotas caso necessário e comuniar via app para o usúario a mudança
+Alta;TRUE;4;202204843;VITORIA LUZ ALVES D ABADIA;Sistema deve ter botão de panico, que ira gerar alerta, caso do veiculo autonomo der problema.
