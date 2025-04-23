@@ -1,84 +1,83 @@
 # Técnicas para Especificação de Requisitos
 
-## 1. Pesquisa sobre Técnicas de Especificação
+## 1. Técnicas de Especificação
 
-### Técnica 1: Casos de Uso
-
-**Descrição:**  
-Casos de uso são uma técnica de especificação funcional que descreve como os usuários (atores) interagem com um sistema para alcançar um objetivo específico. Representam cenários de uso típicos do sistema, detalhando as interações passo a passo.
-
-**Cenários Aplicáveis:**  
-- Sistemas com múltiplos tipos de usuários e funcionalidades.
-- Quando se deseja entender os comportamentos esperados do sistema sob diferentes perspectivas de usuário.
-
-**Vantagens:**  
-- Clareza na comunicação com os stakeholders.
-- Foco na experiência do usuário.
-- Facilita a identificação de requisitos funcionais.
-
-**Desvantagens:**  
-- Pode não capturar todos os detalhes técnicos necessários.
-- Pode ser difícil manter atualizado em sistemas grandes com muitas interações.
-
----
-
-### Técnica 2: Especificação por Requisitos Funcionais em Linguagem Natural Estruturada
+### 1.1. Técnica: Prototipação
 
 **Descrição:**  
-Consiste em descrever os requisitos em forma de frases ou parágrafos estruturados, usando uma linguagem controlada e padronizada para evitar ambiguidade.
+A prototipação consiste na criação de representações visuais e interativas (protótipos) das telas ou funcionalidades do sistema, permitindo aos usuários e stakeholders visualizarem e testarem as funcionalidades antes da implementação.
 
-**Cenários Aplicáveis:**  
-- Projetos em fases iniciais de levantamento de requisitos.
-- Equipes com menor familiaridade com diagramas UML ou outras linguagens formais.
+**Cenários de Aplicação:**  
+- Projetos com foco em interface gráfica (UI/UX).  
+- Quando há dificuldade dos usuários em compreender requisitos textuais.  
+- Quando se deseja validar ideias antes do desenvolvimento.
 
 **Vantagens:**  
-- Fácil de entender por todos os envolvidos, inclusive stakeholders não técnicos.
-- Rápida de escrever e modificar.
+✅ Facilita o feedback imediato dos usuários.  
+✅ Reduz riscos de retrabalho com validação prévia.  
+✅ Excelente para detalhar interfaces e interações visuais.
 
 **Desvantagens:**  
-- Suscetível a ambiguidades se não for bem estruturada.
-- Difícil de automatizar ou formalizar.
+❌ Pode gerar expectativa de que o sistema já está pronto.  
+❌ Requer ferramentas e tempo extra para criação.  
+❌ Foco excessivo em layout pode ofuscar regras de negócio.
 
 ---
 
-## 2. Especificação de Requisitos do Cenário do Grupo
+### 1.2. Técnica: Especificação por Requisitos Funcionais (RF)
 
-### Requisito A (Especificado via Técnica 1 - Casos de Uso)
+**Descrição:**  
+Consiste em descrever detalhadamente as funcionalidades que o sistema deve oferecer. Cada requisito funcional representa uma ação ou comportamento esperado do sistema.
 
-**Título:** Registrar Novo Usuário
+**Cenários de Aplicação:**  
+- Projetos com documentação mais formal e estruturada.  
+- Equipes que seguem processos tradicionais (ex: RUP).  
+- Quando é necessário um contrato claro com o cliente.
 
-**Ator Principal:** Usuário
+**Vantagens:**  
+✅ Foco direto nas funcionalidades a serem desenvolvidas.  
+✅ Clareza sobre o comportamento esperado do sistema.  
+✅ Facilita testes e validações técnicas.
 
-**Pré-condições:**  
-- O usuário não pode estar logado no sistema.
-
-**Fluxo Principal:**
-1. O usuário acessa a tela de cadastro.
-2. O sistema solicita as informações: nome, e-mail, senha.
-3. O usuário preenche os dados e confirma.
-4. O sistema valida as informações.
-5. O sistema armazena os dados e confirma o cadastro.
-
-**Fluxo Alternativo:**
-- 4a. Caso algum campo esteja inválido, o sistema exibe uma mensagem de erro e permite nova tentativa.
-
-**Pós-condições:**  
-- O usuário está cadastrado no sistema e pode fazer login.
+**Desvantagens:**  
+❌ Pode ser difícil para o cliente interpretar sem auxílio.  
+❌ Nem sempre reflete a experiência real do usuário.  
+❌ Pode ser rígido demais em contextos ágeis.
 
 ---
 
-### Requisito B (Especificado via Técnica 2 - Linguagem Natural Estruturada)
+## 2. Especificação de Requisitos
 
-**Requisito:**  
-O sistema **deve permitir** que o **administrador** gere **relatórios mensais** de atividade dos usuários, contendo dados de acesso, uso das funcionalidades e tempo médio de sessão.
+### Cenário: Sistema de Transporte Autônomo Urbano
+
+---
+
+### Requisito A – Técnica: Prototipação
+
+**Requisito:** Interface de Escolha do Nível de Privacidade
+
+**Descrição:**  
+O sistema deve permitir que o passageiro selecione o nível de privacidade desejado durante a viagem (ex: cortinas fechadas, vidros escurecidos, silêncio total).
+
+**Representação:**  
+Protótipo interativo com três botões (modo aberto, intermediário, privado), exibindo a alteração imediata da configuração do veículo.
 
 **Justificativa:**  
-Este requisito é necessário para análise de engajamento e planejamento de melhorias na plataforma.
-
-**Critérios de Aceitação:**
-- O relatório deve ser exportável em formato PDF.
-- Deve conter filtros por período, usuário e tipo de atividade.
-- A geração do relatório não pode demorar mais de 30 segundos.
+A prototipação permite ao usuário final testar e visualizar as alterações no ambiente do veículo, essencial para validar conforto e preferências.
 
 ---
+
+### Requisito B – Técnica: Requisitos Funcionais
+
+**Requisito Funcional:** RF-08 – Emissão de Relatório Pós-Viagem
+
+**Descrição:**  
+O sistema deve gerar automaticamente um relatório de viagem contendo: horário de início e fim, distância percorrida, valor cobrado, eventos registrados e feedback do usuário.
+
+**Pré-condições:**  
+- Viagem deve estar finalizada.  
+- O usuário deve estar logado.
+
+**Pós-condições:**  
+- O relatório deve ser salvo no histórico do usuário e enviado por e-mail.
 
