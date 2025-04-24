@@ -1,6 +1,6 @@
 # Técnicas para Especificação de Requisitos  
 
-## 1. 🛠️ Técnicas de Especificação  
+## 1. Técnicas de Especificação  
 
 ### a) **User Stories (Histórias de Usuário)**  
 **Descrição**:  
