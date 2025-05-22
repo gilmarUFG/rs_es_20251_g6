@@ -1,6 +1,4 @@
 # RNF01 – Cálculo de Rotas Otimizadas
-Prioridade: Alta | Autor: Lucas Gabriel Nunes Alves
-O aplicativo deve ser capaz de calcular rotas otimizadas para veículos autônomos, levando em consideração o tráfego em tempo real, condições meteorológicas e restrições de tráfego.
 
 ## Narrativa:
 - **Como** usuário passageiro

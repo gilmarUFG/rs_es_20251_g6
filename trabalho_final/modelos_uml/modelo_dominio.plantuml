@@ -40,14 +40,21 @@ nome: string
 telefone: string
 }
 
+class Recarga{
+dataInicio: Date
+dataFim: Date
+energiaGasta: integer
+}
+
 viagem o-- Passageiro
 viagem o-- VeiculoAutonomo
 viagem *-- CodigoConfirmacao
 viagem o-- "2" Localizacao: Localizacação de partida e chegada
 Passageiro o-- Localizacao
-VeiculoAutonomo --> PontoRecarga
 VeiculoAutonomo o-- Localizacao
 PontoRecarga o-- Localizacao
+PontoRecarga "1" o-- "0..*" Recarga
+VeiculoAutonomo "1" o-- "0..*" Recarga
 
 VeiculoAutonomo -- StatusManutencao
 
