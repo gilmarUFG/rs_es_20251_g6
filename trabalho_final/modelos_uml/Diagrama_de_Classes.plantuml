@@ -1,0 +1,151 @@
+@startuml
+title Sistema de Veículos Autônomos - Diagrama de Classes Organizado por Pacotes
+
+' =====================
+' Pacote: Entidades
+' =====================
+package "Entidades Principais" {
+  class Usuario {
+    +nome: string
+    +telefone: string
+    +email: string
+  }
+
+  class Localizacao {
+    +latitude: float
+    +longitude: float
+    +descricao: string
+  }
+
+  class VeiculoAutonomo {
+    +placa: string
+    +chassi: string
+    +autonomia: float
+    +statusBateria: string
+    +statusManutencao: StatusManutencao
+    +emOperacao: boolean
+  }
+
+  enum StatusManutencao {
+    OK
+    NECESSITA
+    NECESSITA_URGENCIA
+  }
+
+  class Solicitação {
+    +dataHora: DateTime
+    +localPartida: Localizacao
+    +localDestino: Localizacao
+    +estimativaChegada: int
+  }
+
+  class Viagem {
+    +dataInicio: DateTime
+    +dataFim: DateTime
+  }
+
+  class CodigoConfirmacao {
+    +codigo: string
+    +valido: boolean
+    +dataGeracao: DateTime
+  }
+
+  class Rota {
+    +distancia: float
+    +tempoEstimado: int
+    +condicoesClimaticas: string
+    +statusTrafego: string
+  }
+}
+
+' =============================
+' Pacote: Infraestrutura Veicular
+' =============================
+package "Infraestrutura Veicular" {
+  class PontoRecarga {
+    +id: string
+    +disponivel: boolean
+  }
+
+  class Recarga {
+    +dataInicio: DateTime
+    +dataFim: DateTime
+    +energiaFornecida: float
+  }
+}
+
+' ===========================
+' Pacote: Sistemas Auxiliares
+' ===========================
+package "Sistemas Auxiliares" {
+  class CentralAjuda {
+    +consultarFAQ(): void
+    +buscarArtigo(palavraChave: string): List<String>
+    +contatarSuporte(): void
+  }
+
+  class SistemaGeoposicionamento {
+    +obterLocalizacaoAtual(): Localizacao
+    +calcularRotaOtima(destino: Localizacao): Rota
+  }
+
+  class SistemaComunicacaoVoz {
+    +emitirInstrucao(texto: string): void
+    +responderDuvida(pergunta: string): string
+  }
+
+  class SistemaNormasTransito {
+    +verificarConformidade(rota: Rota): boolean
+  }
+
+  class SistemaConectividade {
+    +verificarConexao(): boolean
+    +operarModoOffline(): void
+  }
+}
+
+' ===========================
+' Relacionamentos entre pacotes
+' ===========================
+
+' Usuário realiza Solicitação
+Usuario o-- "1" Solicitação : realiza
+
+' Solicitação usa Localização (origem e destino) e Veículo
+Solicitação o-- "1" Localizacao : origem
+Solicitação o-- "1" Localizacao : destino
+Solicitação o-- "1" VeiculoAutonomo : veículo designado
+
+' Viagem envolve Passageiro, Veículo, Código de Confirmação e Rota
+Viagem o-- "1" Usuario : passageiro
+Viagem o-- "1" VeiculoAutonomo : veículo
+Viagem o-- "1" CodigoConfirmacao : validação
+Viagem o-- "1" Rota : percurso
+
+' Veículo tem StatusManutencao, posição, histórico de recargas e depende de sistemas
+VeiculoAutonomo o-- "1" StatusManutencao : status
+VeiculoAutonomo o-- "0..*" Recarga : histórico de recargas
+VeiculoAutonomo o-- "1" Localizacao : posição atual
+VeiculoAutonomo o-- SistemaNormasTransito : verifica conformidade
+VeiculoAutonomo o-- SistemaConectividade : gerencia conectividade
+
+' Geoposicionamento auxilia Solicitação e Rota
+SistemaGeoposicionamento o-- Solicitação : fornece localização
+SistemaGeoposicionamento o-- Rota : calcula rotas otimizadas
+
+' Ponto de Recarga está localizado e disponibiliza recargas
+PontoRecarga o-- "1" Localizacao : está em
+PontoRecarga o-- "0..*" Recarga : fornece recargas
+
+' Central de Ajuda acessada por Usuário, usa Comunicação por Voz
+CentralAjuda <.. SistemaComunicacaoVoz : oferece suporte via voz
+CentralAjuda <.. Usuario : acessa
+
+' Comunicação por Voz interage com Usuário
+SistemaComunicacaoVoz <.. Usuario : interage
+
+' Geoposicionamento e Conectividade usados pelo Veículo
+SistemaGeoposicionamento <.. VeiculoAutonomo : utilizado por
+SistemaConectividade <.. VeiculoAutonomo : depende
+
+@enduml
