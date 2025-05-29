@@ -2,24 +2,29 @@
 
 ## Narrativa:
 
-* **Como** usuário do serviço  
-* **Eu quero** ter acesso a pontos de recarga posicionados estrategicamente na cidade  
-* **Para** que eu possa recarregar o veículo facilmente e continuar minha viagem sem interrupções  
+-   **Como** gerente de operações da frota de veículos autônomos
+-   **Eu quero** que a empresa instale pontos de recarga em locais estratégicos по всей cidade
+-   **Para** assegurar que os veículos da frota possam ser recarregados eficientemente, minimizando o tempo de inatividade e maximizando a disponibilidade para os usuários.
 
-## Cenário 1: Localizando pontos de recarga próximos
+## Cenário 1: Identificação e Implementação de Ponto de Recarga Estratégico
 
-* **Como** usuário do serviço  
-* **Quando** consultar o aplicativo em busca de pontos de recarga  
-* **Então** devo visualizar no mapa os pontos mais próximos, com informações sobre localização e disponibilidade  
+-   **Como** planejador de infraestrutura
+-   **Quando** realizo uma análise de dados de uso do serviço, custos de instalação e disponibilidade de infraestrutura elétrica
+-   **Eu quero** identificar um local ótimo para um novo ponto de recarga
+-   **Assim que** o local for aprovado com base em critérios de custo-benefício e impacto operacional positivo
+-   **E** as licenças necessárias forem obtidas e a instalação concluída
+-   **Então** Um novo ponto de recarga estará operacional, melhorando a eficiência da recarga da frota.
 
-## Cenário 2: Navegação até o ponto de recarga
+## Cenário 2: Ponto Estratégico Proposto Considerado Inviável
 
-* **Como** usuário do serviço  
-* **Quando** selecionar um ponto de recarga no aplicativo  
-* **Então** devo receber orientações de trajeto para chegar ao local de forma eficiente e segura  
+-   **Como** planejador de infraestrutura
+-   **Quando** um potencial local para ponto de recarga é avaliado
+-   **Assim que** a análise indicar custos excessivos, impedimentos legais ou baixo impacto na otimização da frota
+-   **Então** O local será descartado e a equipe buscará alternativas mais viáveis.
 
-## Cenário 3: Indicação de pontos de recarga indisponíveis
+## Cenário 3: Operação da Frota Afetada por Falta de Pontos Estratégicos
 
-* **Como** usuário do serviço  
-* **Quando** um ponto de recarga estiver indisponível ou em manutenção  
-* **Então** devo ser informado pelo aplicativo e receber sugestões de pontos alternativos próximos  
+-   **Como** gerente de operações da frota
+-   **Quando** observo que veículos em áreas de alta demanda frequentemente ficam com baixa bateria
+-   **E** precisam se deslocar longas distâncias para o ponto de recarga mais próximo
+-   **Então** A disponibilidade do serviço nessas áreas é comprometida e os custos operacionais aumentam, evidenciando a necessidade de mais pontos de recarga estratégicos.
