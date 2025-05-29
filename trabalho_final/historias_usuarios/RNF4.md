@@ -10,7 +10,7 @@
 
 ### Cenário 1: Operação Offline com Sincronização Posterior
 
--   **Quando**  o usuário e o sistema enbarcado estão em uma área com conexão instável,
+-   **Quando**  o usuário e o sistema embarcado estão em uma área com conexão instável,
 -   **E**  a conexão falhar durante o envio de dados,
 -   **Então** o sistema deve armazenar os dados localmente e sincronizá-los automaticamente quando a conexão for restabelecida,
 -   **Resultado para a qualidade do sistema:**  Para evitar que dados sejam perdidos ou ocorram insconsistencias quando for necessário usá-los
