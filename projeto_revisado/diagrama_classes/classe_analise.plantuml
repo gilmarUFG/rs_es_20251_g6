@@ -8,15 +8,15 @@ class Usuario {
 }
 
 class Localizacao {
-  - latitude: float
-  - longitude: float
+  - latitude: decimal
+  - longitude: decimal
   - descricao: string
 }
 
 class VeiculoAutonomo {
   - placa: string
   - chassi: string
-  - autonomia: float
+  - autonomia: decimal
   - statusBateria: string
   - emOperacao: boolean
 }
@@ -45,12 +45,22 @@ class EmergenciaOcorrida {
 
 class AcidenteOcorrido{
     - dataOcorrencia: DateTime
-    - fotosRegistrada : string[]
+    - fotos : FotoRegistrada[]
 }
+
+class FotoRegistrada{
+  - imagem: string
+  - timestamp: DateTime
+  - metadados: JSON (ex: resolução, sensor_origem)
+}
+
+note left of FotoRegistrada::"imagem: string"
+  Base64 da foto
+end note
 
 Enum EGravidadeEmergencia{
     LEVE
-    MÉDIA
+    MEDIA
     GRAVE
 }
 
@@ -61,7 +71,7 @@ class CodigoConfirmacao {
 }
 
 class Rota {
-  - distancia: float
+  - distancia: decimal
   - tempoEstimado: int
   - condicoesClimaticas: string
   - statusTrafego: string
@@ -78,6 +88,24 @@ class EventoRisco {
   - resolvido: boolean
 }
 
+class Pagamento {
+  efetuado: boolean
+  formaPagamento: EFormaPagamento
+  dataConfirmacao: DateTime
+  valorBruto: decimal
+}
+
+class TaxaPagamento{
+  valor: decimal
+  formaPagamento: EFormaPagamento
+}
+
+Enum EFormaPagamento {
+PIX
+CREDITO
+DEBITO
+}
+
 Usuario "1" -- "0..*" Solicitacao : realiza
 Solicitacao "1" -- "1" Localizacao : localPartida
 Solicitacao "1" -- "1" Localizacao : localDestino
@@ -89,10 +117,16 @@ Viagem "1" -- "1" CodigoConfirmacao : codigoConfirmacao
 Viagem "1" -- "1" Rota : rota
 Viagem "1" -- "0..1" AvaliacaoFinal
 Viagem "1" -- "0..*" EmergenciaOcorrida
+Viagem "1" -- "1" Pagamento
+
+Pagamento -- EFormaPagamento
+Pagamento "0..*" -- "0..*" TaxaPagamento
+TaxaPagamento -- EFormaPagamento
 
 EGravidadeEmergencia -- EmergenciaOcorrida
 AcidenteOcorrido "0..1" -- "1" EmergenciaOcorrida
 EGravidadeEmergencia -- AcidenteOcorrido
+AcidenteOcorrido "1" -- "0..*" FotoRegistrada
 
 VeiculoAutonomo "1" -- "1" Localizacao : localizacaoAtual
 VeiculoAutonomo -- SistemaDetecaoRisco
