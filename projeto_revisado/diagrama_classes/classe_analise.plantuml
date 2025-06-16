@@ -128,12 +128,22 @@ CREDITO
 DEBITO
 }
 
-Usuario "1" -- "0..*" Solicitacao : realiza
+class UsuarioPassageiro{
+bloqueado: boolean
+}
+
+class UsuarioOperadorSistemaFrota {
+
+}
+
+UsuarioPassageiro -|> Usuario
+UsuarioOperadorSistemaFrota -|> Usuario
+UsuarioPassageiro "1" -- "0..*" Solicitacao : realiza
 Solicitacao "1" -- "1" Localizacao : localPartida
 Solicitacao "1" -- "1" Localizacao : localDestino
 Solicitacao "1" -- "1" VeiculoAutonomo : veiculoDesignado
 
-Viagem "1" -- "1" Usuario : passageiro
+Viagem "1" -- "1" UsuarioPassageiro : passageiro
 Viagem "1" -- "1" VeiculoAutonomo : veiculo
 Viagem "1" -- "1" CodigoConfirmacao : codigoConfirmacao
 Viagem "1" -- "1" Rota : rota
