@@ -1,0 +1,87 @@
+Commit;Author;Date;Message
+125cd9eefe73da622f073c42dda818015ec437b3;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Mon Jun 30 11:45:30 2025 -0300;update repository
+647e5b0339bdde78e6f0b0c2149de9b5ae44a617 Merge: 217f99b 428179a;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Sun Jun 29 13:14:17 2025 -0300;Merge branch 'estudante'
+217f99b2f22aee2d517418bd961c999af2e9c549;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Sun Jun 29 13:13:59 2025 -0300;update repository
+428179aace7e4a7e211fc164820f1d0703b2a243;GabrielBGarcia <gabrielnpro@gmail.com>;Wed Jun 25 15:09:03 2025 -0300;Apresentação Requisitos de Software
+542402c10cd5d5d6af289a38fc1b0b293b361983;Thiago-V-A <118688370+Thiago-V-A@users.noreply.github.com>;Mon Jun 23 22:47:42 2025 -0300;Update requisitos_iteracoes.md
+919ac6a2ad3faa4a78a812b50c26270619c13584;Thiag-V-A <thiago234@discente.ufg.br>;Mon Jun 23 22:42:56 2025 -0300;adicionando relação requisito iteração
+570d78dd59a2ea0aa648decf3420312f5d3b2153;João Vitor <joaovitoralves2009@hotmail.com>;Thu Jun 19 15:20:30 2025 -0300;feat: adição das ordems de recarga
+035648a388a4bbe02432abfc2a52831545607a0e;jheissyane <105369996+jheissyane@users.noreply.github.com>;Tue Jun 17 15:21:10 2025 -0300;Update HU07.md
+f7a0aeacf16e141919cc6b72954d40f6bbbc9bdd;jheissyane <105369996+jheissyane@users.noreply.github.com>;Tue Jun 17 15:15:16 2025 -0300;Update HU03.md
+6a02089e5582ff1f78b3f503976a532dcc003150;jheissyane <105369996+jheissyane@users.noreply.github.com>;Tue Jun 17 15:11:56 2025 -0300;Update HU01.md fix: localização / origem e destino
+97801621ec5ad7da10f8bfb835d0525842b475a7;João Vitor <joaovitoralves2009@hotmail.com>;Mon Jun 16 19:43:17 2025 -0300;feat: atualizar diagrama de classes e ajustar história de usuário HU08
+0e4812291db504033e29e4665c836e9fbc43c032;João Vitor <joaovitoralves2009@hotmail.com>;Mon Jun 16 16:10:57 2025 -0300;feat: atualizando diagrama de classes
+c2722de55ad9f964bc6beba65347a66bf632c198;João Vitor <joaovitoralves2009@hotmail.com>;Mon Jun 16 14:13:52 2025 -0300;feat: atualizando classe de análise de domínio
+9c7caa605056fcb61ae111064af440f86f770f54;João Vitor <joaovitoralves2009@hotmail.com>;Sun Jun 15 18:37:15 2025 -0300;feat: add classe de analise do projeto revisado
+e29ac533a073ea19c0b225f96c17dab226ea4dc9;jheissyane <jheissyane@discente.ufg.br>;Sun Jun 15 18:25:16 2025 -0300;inicio projeto revisado
+7598a53a5899194c39eba5a7dc127792b3185574;Thiago-V-A <118688370+Thiago-V-A@users.noreply.github.com>;Thu May 29 16:35:30 2025 -0300;Create RNF3.md
+739d7b8610599975a2258114c7513dbe1d576fdb;Mateus Gandi <85565488+MateusGandi@users.noreply.github.com>;Thu May 29 15:20:32 2025 -0300;Update RNF4.md
+fdc5885c5d5cac1f66e4c739297075f030c18ab3;Mateus Gandi <85565488+MateusGandi@users.noreply.github.com>;Thu May 29 15:19:28 2025 -0300;Update RNF4.md
+7fc1378725e81bd5b85f5f79f705ae297831f2bc;Mateus Gandi <85565488+MateusGandi@users.noreply.github.com>;Thu May 29 15:15:51 2025 -0300;Update RNF4.md
+a65ebe28279baa99094778843eca091651ac6afb;Mateus Gandi <85565488+MateusGandi@users.noreply.github.com>;Thu May 29 15:13:45 2025 -0300;Create RNF4.md
+34b46e365287ffeff33c782bf1399a506783f23c;Carlos Antonio <75860046+zDein@users.noreply.github.com>;Thu May 29 09:54:27 2025 -0300;Alterações na RNF5
+153640bdfc65e08014c593a2f290facc6b999ccb;Carlos Antonio <75860046+zDein@users.noreply.github.com>;Thu May 29 09:48:55 2025 -0300;Adicionando RNF5
+57f3d2464180599e4c998204d8fb69290ed1de98;Carlos Antonio <75860046+zDein@users.noreply.github.com>;Thu May 29 09:44:49 2025 -0300;Alterando RF5.md
+0eb947b73673aa0a1986ceacab5bee09e1c16148;GabrielBGarcia <gabrielnpro@gmail.com>;Wed May 28 11:13:27 2025 -0300;Modelo de Domínio2.0
+cfe9c1a45c51fd9aac05d72a0f0c620d5c1ef816;GabrielBGarcia <gabrielnpro@gmail.com>;Wed May 28 11:08:24 2025 -0300;diagrama de classe e historia de usuario RF
+027ef137987e5b95e0f115d3179a30a2d9639e34;João Vitor <joao.vitor@anbetec.com.br>;Thu May 22 19:53:39 2025 -0300;alterações nos artefatos do trabalho final
+a2551f2a537fcf7f267eb74d00a1c3ed43911c41;João Vitor <joaovitoralves2009@hotmail.com>;Thu May 22 08:46:34 2025 -0300;Create ap_aula9_g6.md
+2d523a3b7c31a51232a1a363ea07600c132ad8a4;jheissyane <105369996+jheissyane@users.noreply.github.com>;Wed May 14 09:46:51 2025 -0300;Create RF3.md
+36076578a4712b88f449a3209f373dd76c26d5f9;jheissyane <105369996+jheissyane@users.noreply.github.com>;Wed May 14 09:41:30 2025 -0300;Create RNF2.md
+e822618eee6f83c953762429eb71d05768ae6653;jheissyane <105369996+jheissyane@users.noreply.github.com>;Wed May 14 09:38:17 2025 -0300;Create RF2.md
+d1391ad303503fbc3bfe9ac61b9d798b491d0d01;João Vitor <joao.vitor@anbetec.com.br>;Wed May 7 21:26:00 2025 -0300;docs: artefatos do trabalho final
+70973ecc7093e8ba1829fe369240b94dc9db4dd5;Mateus Gandi <85565488+MateusGandi@users.noreply.github.com>;Wed May 7 15:21:07 2025 -0300;Create as5_rs_grupo6.md
+85c860909cf74571cae5dba81af334c3fd06a399 Merge: 553b5f7 5e391e1;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Sat Apr 26 15:36:29 2025 -0300;Merge branch 'main' into estudante
+5e391e1e3443f6a94be807596252e45edc7b8026;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Sat Apr 26 15:36:07 2025 -0300;update repository
+553b5f7b3947dbe101752acf878396aff6b0f7e0;João Vitor <joaovitoralves2009@hotmail.com>;Thu Apr 24 08:54:17 2025 -0300;Update ae_aula07JoaoVitorAlves.md
+38b8eaeacd37da3c54c5ca46f6bd4b57e2b1165e;João Vitor <joaovitoralves2009@hotmail.com>;Thu Apr 24 08:53:39 2025 -0300;Update ae_aula07JoaoVitorAlves.md
+0568efff9548acdd4238307cbbcfca37238d6f8b;Thiago-V-A <118688370+Thiago-V-A@users.noreply.github.com>;Wed Apr 23 17:55:05 2025 -0300;Add files via upload
+e73426e13966637faa99aa88aafa607ec6c7eb3b;jheissyane <105369996+jheissyane@users.noreply.github.com>;Wed Apr 23 17:48:15 2025 -0300;Create ae_aula07Jheissyane.md
+6cdf311456820b7ea4985d465e941332eb588bd5;Gabriel Borges Garcia <131085689+GabrielBGarcia@users.noreply.github.com>;Wed Apr 23 17:36:00 2025 -0300;Update ae_aula07gabrielborges.md
+03736ea40f0e73c9c79d2eabac4275506ed93bbe;Mateus Gandi <85565488+MateusGandi@users.noreply.github.com>;Wed Apr 23 17:31:21 2025 -0300;Create ae_aula07MateusHenriqueGandi.md
+e07bedf504cfda1ff8686d9872cae0f0705dc3d2;Gabriel Borges Garcia <131085689+GabrielBGarcia@users.noreply.github.com>;Wed Apr 23 17:27:22 2025 -0300;Create ae_aula07gabrielborges.md
+3c25b7ab161ed3dab9267f6f2c3b15db874f6ae8;João Vitor <joaovitoralves2009@hotmail.com>;Wed Apr 23 17:21:37 2025 -0300;Create ae_aula07JoaoVitorAlves.md
+a4b6c792e6fb55a25073f154a78867904568f600;Carlos Antonio <75860046+zDein@users.noreply.github.com>;Wed Apr 23 14:14:10 2025 -0300;Entrega da atividade extraordinária - Aula 07
+847a163cc9da63ef44030791dd915d8d5aa254b8;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Fri Apr 18 17:13:35 2025 -0300;update repository
+8c849390825bd901cb2cbf805fca6d2cd4503ff9 Merge: bd67191 72b6080;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Thu Apr 17 19:07:41 2025 -0300;Merge branch 'estudante'
+bd671912119844817b39879060974ad454fad722;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Thu Apr 17 19:03:04 2025 -0300;update repository
+72b60803e7d3bcdbaa369eb826be48f315e701d7;João Vitor <joaovitoralves2009@hotmail.com>;Thu Apr 10 21:23:32 2025 -0300;Add files via upload
+cbefd6838244fbdabfbef4f3961a9d9324b2304c;Carlos Antonio <75860046+zDein@users.noreply.github.com>;Wed Apr 9 15:58:35 2025 -0300;Update as3_rs_grupo6.md
+9b0128f79cd30c0b66c435353c1937fa1a74fbeb;Mateus Gandi <85565488+MateusGandi@users.noreply.github.com>;Wed Apr 9 09:39:11 2025 -0300;Update as3_rs_grupo6.md
+5db61ee5b7fea44b9905370614400f0210f48645;Mateus Gandi <85565488+MateusGandi@users.noreply.github.com>;Wed Apr 9 09:37:02 2025 -0300;Update as3_rs_grupo6.md
+97d8ed30792dc2a9635ee9b122d2b03cfcec5b4e;Mateus Gandi <85565488+MateusGandi@users.noreply.github.com>;Tue Apr 8 10:25:43 2025 -0300;Update as3_rs_grupo6.md
+30a4e227c60aca2fc1e7cb6cebbe3b7c2970fb2e;João Vitor <joaovitoralves2009@hotmail.com>;Tue Apr 8 09:53:42 2025 -0300;Update as3_rs_grupo6.md
+8666a65ef96e8eff37b6d53f55676daaee146b0c;João Vitor <joaovitoralves2009@hotmail.com>;Mon Apr 7 15:24:48 2025 -0300;Update as3_rs_grupo6.md
+e31695f5589059ae53b027366ad7bd1cad779754;João Vitor <joaovitoralves2009@hotmail.com>;Mon Apr 7 15:04:03 2025 -0300;Update as3_rs_grupo6.md
+942fa7053155bf9d128ad291354cb4d6fe60934f;João Vitor <joaovitoralves2009@hotmail.com>;Mon Apr 7 09:56:12 2025 -0300;Update as3_rs_grupo6.md
+1f8ede9a76025fc9142bc5488ad1a687e5128569;João Vitor <joaovitoralves2009@hotmail.com>;Mon Apr 7 09:40:00 2025 -0300;Update as3_rs_grupo6.md
+845b1f2dff904691c1c44645d8010dacfa909459;jheissyane <105369996+jheissyane@users.noreply.github.com>;Sat Apr 5 20:20:40 2025 -0300;Create as3_rs_grupo6.md
+d4ce6c9e47df17fe613c66f0950b7646745d4127 Merge: e08c838 1df218d;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Sat Mar 29 11:50:28 2025 -0300;Merge branch 'main' into estudante
+e08c838ffb4818a0703757be890243acda16d50d;João Vitor <joaovitoralves2009@hotmail.com>;Thu Mar 27 21:18:03 2025 -0300;Rename ap-aula4-gx.md to ap-aula4-g6.md
+90a846aa8f9c4f4f89deaf1af315434fa6684de4;João Vitor <joaovitoralves2009@hotmail.com>;Thu Mar 27 21:17:42 2025 -0300;Update ap-aula4-gx.md
+beb8fa253ad6ba3e517bda511e67767171f591c0;João Vitor <joaovitoralves2009@hotmail.com>;Thu Mar 27 21:03:44 2025 -0300;Create ap-aula4-gx.md
+1df218d07f8457f2de11cf55062703b1d0362ee8 Merge: fd7cadb f3c8a51;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Thu Mar 27 21:02:42 2025 -0300;Merge branch 'estudante'
+f3c8a5175edd7d57f4079dd7d22578026fd49076;Thiago-V-A <118688370+Thiago-V-A@users.noreply.github.com>;Wed Mar 26 03:31:19 2025 -0300;Update as2_rs_grupo6.md
+11760d43ecfb02229ed379f1cead3232320f72e2;Thiago-V-A <118688370+Thiago-V-A@users.noreply.github.com>;Wed Mar 26 03:30:12 2025 -0300;Update as2_rs_grupo6.md
+fd57400f4754492a6fdb3e18617bf22f2346ba2d;Thiago-V-A <118688370+Thiago-V-A@users.noreply.github.com>;Wed Mar 26 03:22:38 2025 -0300;Update as2_rs_grupo6.md
+e9a9af5c4be12b23d29ea756f15ffeb3ece8f118;Mateus Gandi <85565488+MateusGandi@users.noreply.github.com>;Tue Mar 25 19:28:40 2025 -0300;Update as2_rs_grupo6.md
+7db4d583603f5909d168383385d45c74ff4406ca;Gabriel Borges Garcia <131085689+GabrielBGarcia@users.noreply.github.com>;Tue Mar 25 10:26:10 2025 -0300;5*Gerenciamento dos Requisitos_PartGBG
+94340efd8f92298913c84a17edf4e4ec8c23d494;João Vitor <joaovitoralves2009@hotmail.com>;Mon Mar 24 23:40:20 2025 -0300;Update as2_rs_grupo6.md
+fcb99413ca01e80df3bbe5a65b9d20104ea1818b;jheissyane <105369996+jheissyane@users.noreply.github.com>;Sun Mar 23 15:47:37 2025 -0300;Create as2_rs_grupo6.md
+fd7cadb38f8cd7dad693d28bfa0bae462d1cf670 Merge: 9b0fe4d 3ad4e98;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Fri Mar 21 18:57:27 2025 -0300;Merge branch 'estudante'
+3ad4e9850e446e5f0797d12f7a6be15da4602c80 Merge: 48e9b65 21f44de;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Fri Mar 21 18:56:58 2025 -0300;Merge branch 'KonoJoao-patch-1' into estudante
+9b0fe4dcbebb1ddbd9d181bf9cb0e87266598b52 Merge: 56a6ed7 48e9b65;Gilmar Ferreira Arantes <130784207+gilmarUFG@users.noreply.github.com>;Fri Mar 21 18:48:41 2025 -0300;Merge pull request #3 from gilmarUFG/estudante Estudante
+48e9b65e0ccfa5c80eeb1e2b138bb2bf99e3fe98;João Vitor <joaovitoralves2009@hotmail.com>;Thu Mar 20 21:30:39 2025 -0300;Update ap-aula3-g6.md
+cd428487259304de3bc933c4d20c808aea6ab86f;Thiago-V-A <118688370+Thiago-V-A@users.noreply.github.com>;Thu Mar 20 21:26:01 2025 -0300;Update ap-aula3-g6.md
+fcf23eed8fdcf79968d8c914590bf75d1fd32b71;Mateus Gandi <85565488+MateusGandi@users.noreply.github.com>;Thu Mar 20 21:25:18 2025 -0300;Update ap-aula3-g6.md
+da1e735a55124fc9117723fbd42fb90b5599b814;João Vitor <joaovitoralves2009@hotmail.com>;Thu Mar 20 21:22:11 2025 -0300;Create ap-aula3-g6.md
+02f37d1ef738b3899d45af897dd300b369470f95;João Vitor <joao.vitor@anbetec.com.br>;Thu Mar 20 19:00:51 2025 -0300;docs: add atv1
+21f44decc6842453718dd1ff95bb2b586967bc96;João Vitor <joaovitoralves2009@hotmail.com>;Thu Mar 20 18:59:16 2025 -0300;Create atv1.md
+56a6ed7f362897304bb6b95f696f036dc1fedb7b;Thiago-V-A <118688370+Thiago-V-A@users.noreply.github.com>;Thu Mar 13 21:33:02 2025 -0300;Update README.md
+f03b282e18a5ba98b98eaaa365d2e0e89796e957;Thiago-V-A <118688370+Thiago-V-A@users.noreply.github.com>;Thu Mar 13 21:32:48 2025 -0300;Update README.md
+a27d8e4542f14afe8f6a120e4ef8a1ebb5a723e4 Merge: ea498ef aa9f67b;Mateus Gandi <85565488+MateusGandi@users.noreply.github.com>;Thu Mar 13 21:31:22 2025 -0300;Merge pull request #1 from gilmarUFG/MateusGandi-patch-1 Update README.md
+aa9f67b0df85c180d1458dd477a7679531ca8440;Mateus Gandi <85565488+MateusGandi@users.noreply.github.com>;Thu Mar 13 21:31:05 2025 -0300;Update README.md
+ea498ef12314c418a6c1e6a39c4a77188941201f;Thiago-V-A <118688370+Thiago-V-A@users.noreply.github.com>;Thu Mar 13 21:27:23 2025 -0300;Update README.md
+afdb45de8ccc6cf08b4fadb11919d78fe54bab1b;Mateus Gandi <85565488+MateusGandi@users.noreply.github.com>;Thu Mar 13 21:25:18 2025 -0300;Update README.md
+40d90178cbbd466204686edc840dc2124d67c8b9;Gilmar Ferreira Arantes <gilmar.arantes@ufg.br>;Fri Feb 28 17:06:25 2025 -0300;Update README.md file.
+56407a9ad8c830b70c79b0eddcc23df597af56c9;Gilmar Ferreira Arantes <130784207+gilmarUFG@users.noreply.github.com>;Fri Feb 28 14:11:45 2025 -0300;Initial commit
